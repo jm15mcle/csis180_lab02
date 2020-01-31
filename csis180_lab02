@@ -1,0 +1,11 @@
+echo "# csis180_lab02" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/jm15mcle/csis180_lab02.git
+   *** Note: If you make a typo above, you can "undo" the remote add step by issuing:
+   *** $ git remote rm origin 
+git push -u origin master
+git add .
+git commit -m "adding remaining lab2 files"
+git push -u origin master
